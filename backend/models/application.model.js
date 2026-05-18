@@ -19,3 +19,4 @@ const applicationSchema=new mongoose.Schema({
 
 },{timeseries:true});
 export const Application=mongoose.model("Application",applicationSchema)
+ 
